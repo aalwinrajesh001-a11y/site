@@ -7,7 +7,7 @@ function usersave(){
 
     const enteredname=el.value;
     localStorage.setItem('username',enteredname);
-    window.location.href="http://localhost:3000/calculator.html";
+    window.location.href="calculator.html";
     }
 
                 
